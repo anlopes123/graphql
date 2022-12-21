@@ -18,7 +18,7 @@ input NewCategory {
 }
 
 input NewCourse {
-  nome: String!
+  name: String!
   description: String
   categoryId: ID!
 }
